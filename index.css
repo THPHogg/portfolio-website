@@ -1,4 +1,16 @@
-h1 {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  font-size: 50pt;
+}
+
+h3 {
   color: blue;
 }
