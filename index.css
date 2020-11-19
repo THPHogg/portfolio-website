@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: Azure;
 }
 
 body {
@@ -14,18 +15,31 @@ h1 {
   color: blue;
   font-size: 50pt;
   text-align: center;
-  padding: 3rem;
   margin: auto;
   margin-top: 15%;
 }
 
-.nav-bar {
+/* .nav-bar {
   text-align: center;
   padding-top: 400px;
-}
+} */
 
 h3 {
   color: blue;
+  text-align: center;
+}
+
+#welcome {
+  height: 1080px;
+  align-content: center;
+}
+
+#about_me_home {
+  height: 1080px;
+}
+
+#about_me_content {
+  height: 1080px;
 }
 
 .my-picture {
@@ -49,4 +63,20 @@ h3 {
   position: relative;
   bottom: 250px;
   left: 15px;
+}
+
+#work_home {
+  height: 1080px;
+}
+
+#work_content {
+  height: 1080px;
+}
+
+#contact_home {
+  height: 1080px;
+}
+
+#contact_content {
+  height: 1080px;
 }
