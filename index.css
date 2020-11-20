@@ -5,7 +5,7 @@
 }
 
 a {
-  color: azure;
+  color: rgb(77, 77, 77);
 }
 
 a:hover {
@@ -20,7 +20,7 @@ body {
 
 #welcome_header,
 #contact_header {
-  color: blue;
+  color: azure;
   font-size: 50pt;
   text-align: center;
   margin: auto;
@@ -28,30 +28,30 @@ body {
 }
 
 h3 {
-  color: blue;
+  color: azure;
   text-align: center;
 }
 
 #welcome {
   height: 960px;
   align-content: center;
-  background-color: Azure;
+  background-color: rgb(77, 77, 77);
 }
 
 #about_header,
 #work_header {
-  color: blue;
+  color: azure;
   font-size: 50pt;
   text-align: center;
 }
 
 #about_me_content {
   height: auto;
-  background-color: azure;
+  background-color: rgb(77, 77, 77);
 }
 
 .about_block {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: azure;
   width: 80%;
   margin: 1rem auto;
   border-radius: 10px;
@@ -60,7 +60,7 @@ h3 {
 }
 
 .my-picture {
-  max-width: 400px;
+  max-width: 420px;
   height: auto;
   border-radius: 10px;
   box-shadow: 1px 1px 3px #aaaaaa;
@@ -69,8 +69,34 @@ h3 {
 
 .about-me {
   max-width: auto;
-  color: azure;
+  color: rgb(77, 77, 77);
   margin: 1rem;
+}
+
+.tools_block {
+  background-color: azure;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.icon {
+  max-width: auto;
+  margin: 1rem;
+  font-size: 11.25vh;
+}
+
+.iconify {
+  color: rgb(77, 77, 77);
+}
+
+.express {
+  color: rgb(77, 77, 77);
+}
+
+.skills_block {
 }
 
 #about_me_button {
@@ -79,7 +105,7 @@ h3 {
 
 #work_content {
   height: auto;
-  background-color: Azure;
+  background-color: rgb(77, 77, 77);
 }
 
 #work_intro {
@@ -87,10 +113,11 @@ h3 {
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
+  color: azure;
 }
 
 .work_block {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: azure;
   width: 80%;
   margin: 1rem auto;
   border-radius: 10px;
@@ -106,7 +133,7 @@ h3 {
 .work_img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 15px;
   box-shadow: 1px 1px 3px #aaaaaa;
   margin: 1rem;
 }
@@ -122,18 +149,19 @@ h3 {
   text-align: left;
   margin: 0;
   padding: 0;
-  color: azure;
+  color: rgb(77, 77, 77);
 }
 
 #contact_home {
   height: 960px;
-  background-color: Azure;
+  background-color: rgb(77, 77, 77);
 }
 
 #final {
-  background-color: azure;
+  background-color: rgb(77, 77, 77);
 }
 
 #final_footer {
   text-align: center;
+  color: azure;
 }
