@@ -33,7 +33,7 @@ h3 {
 }
 
 #welcome {
-  height: 1080px;
+  height: 960px;
   align-content: center;
   background-color: Azure;
 }
@@ -47,27 +47,34 @@ h3 {
 
 #about_me_content {
   height: auto;
-  background-color: Azure;
+  background-color: azure;
+}
+
+.about_block {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .my-picture {
-  max-width: 330px;
+  max-width: 400px;
   height: auto;
-  position: relative;
-  left: 950px;
-  bottom: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #aaaaaa;
+  margin: 1rem;
 }
 
 .about-me {
-  max-width: 600px;
-  position: relative;
-  left: 150px;
-  top: 120px;
+  max-width: auto;
+  color: azure;
+  margin: 1rem;
 }
 
 #about_me_button {
-  position: relative;
-  bottom: 220px;
+  padding-bottom: 75px;
 }
 
 #work_content {
@@ -119,6 +126,14 @@ h3 {
 }
 
 #contact_home {
-  height: 1080px;
+  height: 960px;
   background-color: Azure;
+}
+
+#final {
+  background-color: azure;
+}
+
+#final_footer {
+  text-align: center;
 }
