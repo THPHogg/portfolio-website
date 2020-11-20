@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: Azure;
 }
 
 body {
@@ -28,6 +27,7 @@ h3 {
 #welcome {
   height: 1080px;
   align-content: center;
+  background-color: Azure;
 }
 
 #about_header,
@@ -38,7 +38,8 @@ h3 {
 }
 
 #about_me_content {
-  height: 1080px;
+  height: auto;
+  background-color: Azure;
 }
 
 .my-picture {
@@ -58,13 +59,58 @@ h3 {
 
 #about_me_button {
   position: relative;
-  bottom: 200px;
+  bottom: 220px;
 }
 
 #work_content {
-  height: 1080px;
+  height: auto;
+  background-color: Azure;
+}
+
+#work_intro {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work_block {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.work_preview {
+  padding: 1rem;
+  width: 90%;
+}
+
+.work_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #aaaaaa;
+  margin: 1rem;
+}
+
+.work_title {
+  text-align: left;
+  font-size: 19px;
+  padding: 0rem 0;
+  color: blue;
+}
+
+.work_description {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 #contact_home {
   height: 1080px;
+  background-color: Azure;
 }
