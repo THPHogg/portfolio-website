@@ -29,112 +29,131 @@
     <!-- Welcome page -->
 
     <section id="welcome">
-      <h1 id="welcome_header">Welcome.</h1>
+      <h1 id="welcome_header"><span id="first">Tom </span>Hogg.</h1>
       <br />
       <br />
       <center>
-        <a href="#about_me_content"
-          ><i class="fas fa-chevron-down fa-3x" style="color: azure"></i>
+        <a href="#about_me"
+          ><i class="fas fa-chevron-down fa-3x" style="color: black"></i>
         </a>
       </center>
     </section>
 
     <!-- about me section -->
 
-    <section id="about_me_content">
-      <h1 id="about_header">About me.</h1>
-      <div class="about_block" data-aos="fade-up">
+    <section id="about_me">
+      <h1 id="about_header"><span id="first">About </span>me.</h1>
+      <div id="about-me-container">
         <img
           class="my-picture"
           src="/images/ebb4a288-207b-434f-bb1b-516f215e385e.JPG"
           alt="A wholesome picture of a budding software developer"
         />
-        <p class="about-me">
-          Hello.<br /><br />I am a recent graduate of the Northcoders Bootcamp
+        <div id="about-me-text-container">
+        <p class="about-me-text">
+          Hello.<br /><br>I am a recent graduate of the Northcoders Bootcamp
           and I am really excited to show you how far I've come in such a short
-          period of time.<br /><br />
-          I started my journey as a software developer like most people did.<br />
-          Fleeing France before they closed down the borders due to a global
-          pandemic.<br /><br />It was at this point that I decided I would make
+          period of time.<br /><br>
+          I started my journey as a software developer like most people did...<br>
+          fleeing France before they closed down the borders due to a global
+          pandemic.<br /><br>It was at this point that I decided I would make
           the most of this situation and apply myself in learning a new
-          skill.<br /><br />
+          skill.<br /><br>
           The first month of this endeavour was spent fumbling around on random
-          online courses. After realising that I could truly make a career out
+          online courses.<br><br>After realising that I could truly make a career out
           of this I jumped in the deep-end and applied for the Northcoders
-          Bootcamp.<br /><br />
-          Three months later and here we are!<br /><br />A grand total of four
+          Bootcamp.<br /><br>
+          Three months later and here we are!<br><br />A grand total of four
           months hard work in order to get the chance to be able to show off my
-          humble website and body of work.<br /><br /><strong
-            >I really hope you all enjoy.</strong
-          ><br /><br />Shown below are some of the languages and tools I have 
+          humble website and body of work.<br /><br /><strong>I really hope you all enjoy.</strong
+          ></p>
+        </div>
+        <div id="skills-container">
+        <p class="skills-text">
+          Shown below are some of the languages and tools I have 
           been using over the past four months whilst simultaneously using:
           <br><br><strong>Test-driven development (TDD)<br><br>Pair programming & 
           remote collaboration<br><br>Version control with Git & GitHub</strong>
         </p>
-      </div>
-      <div class="tools_block" data-aos="fade-up">
-        <div class="icon">
-          <i
-            class="fab fa-js-square"
-            title="JavaScript"
-            style="color: rgb(77, 77, 77)"
+        <div id="icon" class="icon">
+          <i 
+          class="iconify" 
+          data-icon="logos:javascript" 
+          data-inline="false" 
+          title="JavaScript"></i>
+          <i 
+          class="iconify" 
+          data-icon="vscode-icons:file-type-node" 
+          data-inline="false"
+          title="Node"
           ></i>
           <i
-            class="fab fa-node-js"
-            title="Node.js"
-            style="color: rgb(77, 77, 77)"
+          class="iconify"
+          data-icon="vscode-icons:file-type-jest"
+          data-inline="false"
+          title="Jest"
           ></i>
           <i
-            class="iconify"
-            data-icon="cib:jest"
-            data-inline="false"
-            title="Jest"
+          class="iconify"
+          data-icon="simple-icons:express"
+          data-inline="false"
+          title="Express.js"
           ></i>
           <i
-            class="iconify express"
-            data-icon="logos:express"
-            data-inline="false"
-            title="Express.js"
+          class="iconify"
+          data-icon="logos:postgresql"
+          data-inline="false"
+          title="PostgreSQL"
           ></i>
           <i
-            class="iconify"
-            data-icon="cib:postgresql"
-            data-inline="false"
-            title="PostgreSQL"
+          class="iconify"
+          data-icon="logos:knex"
+          data-inline="false"
+          title="Knex.js"
           ></i>
           <i
-            class="iconify"
-            data-icon="logos:knex"
-            data-inline="false"
-            title="Knex.js"
+          class="iconify"
+          data-icon="logos:react"
+          data-inline="false"
+          title="React"
           ></i>
           <i
-            class="iconify"
-            data-icon="bx:bxl-react"
-            data-inline="false"
-            title="React"
+          class="iconify"
+          data-icon="logos:html-5"
+          data-inline="false"
+          title="HTML5"
           ></i>
           <i
-            class="iconify"
-            data-icon="typcn:html5"
-            data-inline="false"
-            title="HTML5"
+          class="iconify"
+          data-icon="logos:css-3"
+          data-inline="false"
+          title="CSS3"
           ></i>
-          <i
-            class="iconify"
-            data-icon="bx:bxl-css3"
-            data-inline="false"
-            title="CSS3"
+          <i 
+          class="iconify" 
+          data-icon="logos:firebase" 
+          data-inline="false" 
+          title="Firebase"></i>
+          <i 
+          class="iconify" 
+          data-icon="vscode-icons:file-type-vscode" 
+          data-inline="false"
+          title="VSCode"></i>
+          <i 
+          class="iconify" 
+          data-icon="ant-design:github-filled" 
+          data-inline="false"
+          title="GitHub"
           ></i>
         </div>
-        </p>
       </div>
-      <center>
-        <a href="#work_content"
-          ><i
-            class="fas fa-chevron-down fa-3x"
+    </div>
+    <center>
+      <a href="#work_content"
+      ><i
+      class="fas fa-chevron-down fa-3x"
             id="about_me_button"
-            style="color: azure"
+            style="color: black"
           ></i>
         </a>
       </center>
@@ -142,48 +161,47 @@
     <!-- my portfolio/ work section -->
 
     <section id="work_content">
-      <h1 id="work_header">My work.</h1>
+      <h1 id="work_header"><span id="first">My </span>work.</h1>
       <br />
       <br />
-      <div id="work_intro">
-        <p>
-          Small paragraph explaining this is my body of work, with links to my
-          github with the raw code. And then links to up and running stuff too
-        </p>
-      </div>
       <div class="work_block" data-aos="fade-up">
-        <a href="https://github.com/THPHogg" target="_blank">
+        <a href="https://bit.ly/2MpvpxI" target="_blank">
           <img
             class="work_img"
-            src="images/Screenshot 2020-11-20 at 09.43.39.png"
+            src="images/Screenshot 2021-01-26 at 12.25.48.png"
         /></a>
         <div class="work_preview">
           <h4 class="work_title">
-            <a href="https://github.com/THPHogg" target="_blank"
-              >Title for what this piece of work is</a
+            <a href="https://bit.ly/2MpvpxI" target="_blank"
+              >Meme what you say</a
             >
           </h4>
           <br />
           <p class="work_description">
-            Small description of what the piece of work does
-          </p>
+            Meme what you say is the final presentation piece from the Northcoders bootcamp. I, along with my amazing team-mates, built a real-time multiplayer iOS game in the space of about 10 days using React Native, FireStore, FireBase and a lot of styling. We are extremely proud of it! 
+          </p><br>
+          <p>The idea of the game is to come together with friends or family (3 - 8 players) and vote on each others witty captions for the randomly generated memes. Funniest player wins!</p><br>
+          <p> Please click on the title to see a short presentation video showing off the app, how we made it, why we used the technologies that we did and any obstacles we faced during this process.</p><br>
+          <p>Or alternatively <a href="https://github.com/bellaroyle/Meme-what-you-say" target="_blank">click here </a>to go to the GitHub repo to have a look at the files.</p>
         </div>
       </div>
       <div class="work_block" data-aos="fade-up">
-        <a href="https://github.com/THPHogg" target="_blank">
+        <a href="https://thphogg-nc-news.netlify.app" target="_blank">
           <img
             class="work_img"
-            src="images/Screenshot 2020-11-20 at 09.43.39.png"
+            src="images/Screenshot 2021-01-26 at 12.27.53.png"
         /></a>
         <div class="work_preview">
           <h4 class="work_title">
-            <a href="https://github.com/THPHogg" target="_blank"
-              >Title for what this piece of work is</a
+            <a href="https://thphogg-nc-news.netlify.app" target="_blank"
+              >NC News</a
             >
           </h4>
           <br />
           <p class="work_description">
-            Small description of what the piece of work does
+            NC News is a "reddit style" web page that allows users to vote on, post or delete articles and comments.</p><br><p>For the back end I built an API using PSQL and then interacted with it using Knex. This is then hosted on Heroku in order to be accessed by the front end.</p> 
+            <p>The front end is then built using React, styled with CSS and the hosted on Netlify. </p> 
+            <br><p><a href="https://github.com/THPHogg/ncnews-hosted" target="_blank">Click here </a>for the front end GitHub repo and <a href="https://github.com/THPHogg/be-nc-news" target="_blank">click here </a>for the back end GitHub repo.
           </p>
         </div>
       </div>
@@ -207,7 +225,7 @@
       </div>
       <center>
         <a href="#contact_home"
-          ><i class="fas fa-chevron-down fa-3x" style="color: azure"></i>
+          ><i class="fas fa-chevron-down fa-3x" style="color: black"></i>
         </a>
       </center>
     </section>
@@ -215,26 +233,26 @@
     <!-- contact section -->
 
     <section id="contact_home">
-      <h1 id="contact_header">How to contact me.</h1>
+      <h1 id="contact_header"><span id="first">Contact </span>me.</h1>
       <br />
       <br />
       <center>
         <table>
           <th>
             <a href="mailto:t.hogg@hotmail.com"
-              ><i class="fas fa-envelope-square fa-3x" style="color: azure"></i
+              ><i class="fas fa-envelope-square fa-3x" style="color: black"></i
             ></a>
           </th>
           <th>
             <a
               href="https://www.linkedin.com/in/tom-hogg-685119200/"
               target="_blank"
-              ><i class="fab fa-linkedin fa-3x" style="color: azure"></i
+              ><i class="fab fa-linkedin fa-3x" style="color: black"></i
             ></a>
           </th>
           <th>
             <a href="https://github.com/THPHogg" target="_blank"
-              ><i class="fab fa-github-square fa-3x" style="color: azure"></i
+              ><i class="fab fa-github-square fa-3x" style="color: black"></i
             ></a>
           </th>
         </table>

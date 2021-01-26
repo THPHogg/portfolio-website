@@ -9,11 +9,11 @@ html {
 }
 
 a {
-  color: rgb(77, 77, 77);
+  color: black;
 }
 
 a:hover {
-  color: blue;
+  color: rgb(126, 153, 159);
 }
 
 body {
@@ -24,83 +24,124 @@ body {
 
 #welcome_header,
 #contact_header {
-  color: azure;
+  color: rgb(126, 153, 159);
   font-size: 50pt;
+  font-family: Georgia;
+  font-weight: lighter;
   text-align: center;
   margin: auto;
   margin-top: 15%;
 }
 
+#first {
+  color: black;
+}
+
 h3 {
-  color: azure;
+  color: black;
   text-align: center;
 }
 
 #welcome {
-  height: 960px;
+  min-height: 100vh;
+  width: 100%;
+  flex: 1;
+  margin: 0 auto;
   align-content: center;
-  background-color: rgb(77, 77, 77);
+  background-color: #fffffa;
+  justify-content: space-between;
 }
 
 #about_header,
 #work_header {
-  color: azure;
+  color: rgb(126, 153, 159);
   font-size: 50pt;
+  font-family: Georgia;
+  font-weight: lighter;
   text-align: center;
 }
 
-#about_me_content {
-  height: auto;
-  background-color: rgb(77, 77, 77);
+#about_me {
+  height: 100vh;
+  background-color: #fffffa;
 }
 
-.about_block {
-  background-color: azure;
-  width: 80%;
-  margin: 1rem auto;
-  border-radius: 10px;
+#about-me-container {
+  margin-top: 4%;
+  margin-bottom: 4%;
   display: flex;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .my-picture {
-  max-width: 420px;
+  height: auto;
+  width: 27%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#about-me-text-container {
+  width: 27%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #aaaaaa;
-  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.about-me {
-  max-width: auto;
-  color: rgb(77, 77, 77);
-  margin: 1rem;
+.about-me-text {
+  width: 90%;
+  height: 90%;
+  color: black;
+  padding: 5%;
+  margin: auto;
+  font-size: 1vw;
 }
 
-.tools_block {
-  background-color: azure;
-  width: 80%;
-  margin: 1rem auto;
+#skills-container {
+  width: 27%;
+  height: auto;
   border-radius: 10px;
-  display: flex;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-top: 7%;
 }
 
-.icon {
-  max-width: auto;
-  margin: 1rem;
-  font-size: 11.25vh;
+.skills-text {
+  width: 90%;
+  color: black;
+  padding: 5%;
+  margin: auto;
+  font-size: 1vw;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 5%;
+  margin: auto;
 }
 
 .iconify {
-  color: rgb(77, 77, 77);
+  align-items: center;
+  color: black;
+  font-size: 5vh;
+  flex-direction: row;
+  margin: 5px;
 }
 
 .express {
-  color: rgb(77, 77, 77);
-}
-
-.skills_block {
+  color: black;
 }
 
 #about_me_button {
@@ -108,8 +149,8 @@ h3 {
 }
 
 #work_content {
-  height: auto;
-  background-color: rgb(77, 77, 77);
+  min-height: 100vh;
+  background-color: #fffffa;
 }
 
 #work_intro {
@@ -117,16 +158,18 @@ h3 {
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
-  color: azure;
+  color: black;
 }
 
 .work_block {
-  background-color: azure;
+  background-color: #fffffa;
   width: 80%;
   margin: 1rem auto;
   border-radius: 10px;
   display: flex;
-  box-shadow: 5px 5px 5px #aaaaaa;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .work_preview {
@@ -135,8 +178,8 @@ h3 {
 }
 
 .work_img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 15px;
   box-shadow: 1px 1px 3px #aaaaaa;
   margin: 1rem;
@@ -144,7 +187,7 @@ h3 {
 
 .work_title {
   text-align: left;
-  font-size: 19px;
+  font-size: 22px;
   padding: 0rem 0;
 }
 
@@ -153,19 +196,19 @@ h3 {
   text-align: left;
   margin: 0;
   padding: 0;
-  color: rgb(77, 77, 77);
+  color: black;
 }
 
 #contact_home {
-  height: 960px;
-  background-color: rgb(77, 77, 77);
+  height: 100vh;
+  background-color: #fffffa;
 }
 
 #final {
-  background-color: rgb(77, 77, 77);
+  background-color: #fffffa;
 }
 
 #final_footer {
   text-align: center;
-  color: azure;
+  color: black;
 }
