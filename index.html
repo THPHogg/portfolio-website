@@ -30,6 +30,7 @@
 
     <section id="welcome">
       <h1 id="welcome_header"><span id="first">Tom </span>Hogg.</h1>
+      <div id="typewriter"></div>
       <br />
       <br />
       <center>
@@ -146,6 +147,9 @@
           title="GitHub"
           ></i>
         </div>
+        <p class="skills-text">Whilst the bootcamp was mainly focussed on Javascript, I learnt a lot of these languages and tools a long the way.
+           <br><br>The most important part however, was gaining the ability (or understanding of the process) to learn new unfamiliar technologies. 
+           <br><br>I believe this, along with great teamwork, will stand me in great stead to thrive in any Junior Developer role.</p>
       </div>
     </div>
     <center>
@@ -269,6 +273,14 @@
 <!-- scripts -->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script type='text/javascript'>
+const instance = new Typewriter('#typewriter', {
+  strings: ['Junior Developer.'],
+  autoStart: true,
+  loop: true,
+})
+</script>
 <script>
     AOS.init({ duration: 2500 });
   </script>
